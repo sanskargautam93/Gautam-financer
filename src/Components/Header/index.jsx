@@ -5,6 +5,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { signOut } from 'firebase/auth';
+import userImg from '../../assets/user.svg'
 
 function Header() {
   const navigate = useNavigate();
